@@ -1,0 +1,15 @@
+{
+  "name": "three-lsystem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "author": "Keith Hughitt",
+  "license": "MIT",
+  "dependencies": {
+    "three": "^0.136.0",
+    "three-stdlib": "^2.6.4"
+  }
+}
