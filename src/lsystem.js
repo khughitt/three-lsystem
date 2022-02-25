@@ -58,7 +58,8 @@ export default class Lsystem extends THREE.Group {
       origin: [-30, -60, 0],
       ignore: ["+", "-", "F"],
       colors: ['#b2ff70', '#94ee5d', '#86dd4b', '#79cc38', '#6bba25', '#5da913', '#4f9800'],
-      renderer: '2d'
+      renderer: '2d',
+      scale: 1.0
     };
 
     this.#params = params || {};
@@ -87,7 +88,7 @@ export default class Lsystem extends THREE.Group {
     this.run();
 
     // draw l-system, 
-    const turtle = new Turtle(this.#params.origin, this.#params.alpha, this.#params.delta, this.#params.dist, this.#params.renderer);
+    const turtle = new Turtle(this.#params.origin, this.#params.alpha, this.#params.delta, this.#params.dist, this.#params.renderer, this.#params.scale);
 
     for (var i = this.#params.numIter - 1; i >= 0; i--) {
       let cmds = this.getState(i).split("");
@@ -179,5 +180,3 @@ export default class Lsystem extends THREE.Group {
     return this.#state[ind];
   }
 }
-
-//global.THREE = {Lsystem: Lsystem}
