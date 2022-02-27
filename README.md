@@ -6,6 +6,8 @@ three-lsystem
 `three-lsystem` is a basic implementation of
 [L-systems](https://en.wikipedia.org/wiki/L-system) in [three.js](https://threejs.org/).
 
+![three-lsystem example l-systems](extra/demo-screenshot.png)
+
 Currently, it supports the creation of:
 
 - Deterministic context-free L-systems ("D0L systems")
