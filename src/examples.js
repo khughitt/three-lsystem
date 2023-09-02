@@ -6,7 +6,7 @@
 const ABOP = {
   // Fig 1.9a
   "1.9a": {
-    n: 4,
+    numIter: 4,
     dist: 1,
     axiom: "F-F-F-F",
     alpha: Math.PI / 2,
@@ -37,7 +37,7 @@ const ABOP = {
   },
   // Fig 1.24b
   "1.24b": {
-    n: 5,
+    numIter: 5,
     dist: 2,
     axiom: "F",
     alpha: Math.PI / 2,
@@ -56,7 +56,7 @@ const ABOP = {
   // Fig 1.27
   // Simple stochastic L-system
   "1.27": {
-    n: 5,
+    numIter: 5,
     dist: 1.8,
     axiom: "F",
     alpha: Math.PI / 2,
@@ -82,7 +82,7 @@ const ABOP = {
 
   // Fig 1.31a
   "1.31a": {
-    n: 30,
+    numIter: 30,
     dist: 1,
     axiom: "F1F1F1",
     alpha: Math.PI / 2,
@@ -104,7 +104,7 @@ const ABOP = {
   },
 
   "1.31b": {
-    n: 30,
+    numIter: 30,
     dist: 1,
     axiom: "F1F1F1",
     alpha: Math.PI / 2,
@@ -126,7 +126,7 @@ const ABOP = {
   },
 
   "1.31c": {
-    n: 26,
+    numIter: 26,
     dist: 1,
     axiom: "F1F1F1",
     alpha: Math.PI / 2,
